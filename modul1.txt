@@ -7,18 +7,17 @@
 - WAN (Wide Area Network)
 
 3. Sebutkan dua media transmisi jaringan yang menggunakan kabel
-- Wired (kabel)
-- Wireless (Nirkabel)
+- Kabel UTP, Fiber Optic, Coaxial
 
 4. Jelaskan perbedaan antara LAN dan WAN
 - LAN lingkupnya kecil hanya sebatas rumah atau kantor
 - WAN lingkupnya besar seperti antar negara atau benua
 
 5. Apa fungsi dari switch dalam jaringan?
-- di modul ngga ada, tapi sepemahaman ku switch/router ini menjadi perantara antara computer dengan modem internet
+- switch/router ini menjadi penghubung untuk computer / beberapa perangkat dan mengirimkan data ke perangkat lain
 
 6. Sebutkan contoh penggunaan jaringan MAN!
-- jaringan skala global seperti google atau nvdia
+- jaringan skala kota 
 
 7. Sebutkan contoh dari topologi hybrid
-- kurang tau tapi topologi hybrid ini gabungan dari topologi jaringan dan topologi fisik. 
+- gabungan antara topologi bus dan topologi star. 
