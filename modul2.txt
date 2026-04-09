@@ -33,17 +33,16 @@ IDS hanya mendeteksi dan ngasi peringatan, IPS tidak hanya mendeteksi tapi mengh
 
 Media Jaringan
 - Tembaga : 
-coaxial, (konduktor pusat, isolator) digunakan pada topologi Bus 
-twisted pair, dua kawat tembaga yang pilin (twist). topologi Star. UTP, STP, ScTP
-
+1. coaxial, (konduktor pusat, isolator) digunakan pada topologi Bus 
+2. twisted pair, dua kawat tembaga yang pilin (twist). topologi Star. UTP, STP, ScTP
 STP : outer jacket - overall shield - pair shields - twisted pair - color-coded plastic
 ScTP :  outer jacket - overall shield - twisted pair - color-coded plastic
 UTP :  outer jacket - twisted pair - color-coded plastic
 
 Kabel UTP : menggunakan konektor RJ-45
 Cara memasang kabel utp : 
-- Straight Through : computer ke switch
-- Cross Over : computer ke computer
+- Straight Through : untuk perangkat berbeda. ex : computer ke switch
+- Cross Over : untuk perangkat sama. ex : computer ke computer
 - Roll Over : pemeliharaan perangkat jaringan
 
 - Fiber Optic : menggunakan infra merah atau laser untuk mengirimkan data
@@ -52,8 +51,8 @@ terdiri dari dua kabel : transmit data dan receive data
 
 Topologi Jaringan 
 - cara menghubungkan computer dan perangkat dalam jaringan agar efisien
-1. Topologi Bus, semua perangkat terhubung pada satu kabel Utama. Bus sebagai jalur komunikasi tunggal yang digunakan. 
-2. Topologi Star, semua perangkat terhubung pada satu titik pusat (switch/hub). Sering digunakan dalam jaringan kabel LAN.
+1. Topologi Bus, semua perangkat terhubung pada satu kabel Utama. Bus sebagai jalur komunikasi tunggal yang digunakan. kalau kabel putus, semua mati.
+2. Topologi Star, semua perangkat terhubung pada satu titik pusat (switch/hub). Sering digunakan dalam jaringan kabel LAN. satu kabel putus, yang lain aman.
 3. Topologi Ring, struktur jaringan komputer yang berbentuk cincin, dimana setiap perangkat terhubung langsung. biasanya menggunakan kabel UTP
 4. Topologi Mesh, menghubungkan setiap perangkat secara langsung, jumlah saluran = jumlah sentral - 1. cocok untuk jaringan yg butuh komunikasi darurat
 5. Topologi Tree, gabungan topologi bus dan topologi star, menyerupai pohon dalam satu jaringan bercabang ke beberapa sub-jaringan menggunakan switch. 
