@@ -1,0 +1,61 @@
+Kategori Perangkat Jaringan Komputer
+1. Host/Node
+- Server : computer yang memiliki memori sangat besar, hardisk kapasitas besar, kartu jaringan cepat. system os tersimpan 
+- Workstation : computer yang terhubung ke server. workstatis pasti punya kartu jaringan (NIC), aplikasi jaringan (software jaringan), kabel untuk menghubungkan jaringan, tidak butuh storage besar. 
+
+2. Perangkat Penghubung (Connectiong, Devices)
+- NIC : hardware devices konekin computer dengan jaringan. terinstall di motherboard, mengubah data menjadi electric signal
+- Hub/Switch/Konsentrator : devices yang menyatukan kabel-kabel dari tiap workstation, server atau perangkat.
+HUB vs Switch
+Hub : ngirim data ke semua perangkat yang terhubung, tanpa cek. jadi jaringan lambat karna
+Switch : ngirim data ke perangkat tujuan dengan membaca alamat MAC. 
+- Repeater : memperkuat atau memperpanjang signal dalam jaringan agar dapat menjangkau area yang lebih luas. 
+
+3. Perangkat Pengarah (Routing Devices)
+- Bridge : menghubungkan dua atau lebih jaringan local (LAN) secara terpisah. 
+Brigde vs Switch
+Bridge : port lebih sedikit, cocok menghubungkan 2 jaringan LAN kecil
+Switch : lebih canggih dan efisien untuk menghubungkan banyak perangkat dalam satu jaringan
+- Router : perangkat yang berfungsi untuk menghubungkan dua atau lebih jaringan berbeda dan meneruskan data diantara mereka. router akan memilih jalur terbaik untuk mengirimkan pesan. 
+- Gateaway : penghubung antara dua jaringan dengan protocol berbeda. Gateaway bekerja pada semua lapisan OSI, penerjemah agar dua system yang berbeda dapat berkomunikasi
+
+4. Perangkat Akses (Access Devices)
+- Modem : mengubah sinyal digital dari computer menjadi sinyal analog untuk di transmisikan melalui saluran telepon. memungkinkan perangkat digital seperti computer untuk terhubung ke internet lewat analog
+- Access Point : menghubungkan perangkat nirkabel. berfungsi sebagai jembatan antara perangkat nirkabel dengan router atau switch di jaringan kabel. 
+Jenis AP : - Standalone AP : berfungsi sendiri
+           - Controller Based AP : dikelola controller terpusat. 
+ 
+5. Perangkat Keamanan (Security Devices)
+- Firewall : system keamanan jaringan yang berfungsi untuk mengontrol dan memantau lalu lintas data. satpam jir. pagar pengaman yang membatasi akses tidak sah
+- IDS/IPS : Intrusion Detection System/ Intrusion Prevention System. system keamanan yang digunakan untuk mendeteksi ancaman terharap jaringan atau system computer
+IDS hanya mendeteksi dan ngasi peringatan, IPS tidak hanya mendeteksi tapi menghentikan  
+- Proxy Server : perantara antara pengguna dan internet. menerima permintaan dari pengguna dan mengirimkannya ke server tujuan atas nama pengguna. 
+
+Media Jaringan
+- Tembaga : 
+coaxial, (konduktor pusat, isolator) digunakan pada topologi Bus 
+twisted pair, dua kawat tembaga yang pilin (twist). topologi Star. UTP, STP, ScTP
+
+STP : outer jacket - overall shield - pair shields - twisted pair - color-coded plastic
+ScTP :  outer jacket - overall shield - twisted pair - color-coded plastic
+UTP :  outer jacket - twisted pair - color-coded plastic
+
+Kabel UTP : menggunakan konektor RJ-45
+Cara memasang kabel utp : 
+- Straight Through : computer ke switch
+- Cross Over : computer ke computer
+- Roll Over : pemeliharaan perangkat jaringan
+
+- Fiber Optic : menggunakan infra merah atau laser untuk mengirimkan data
+terdiri dari dua kabel : transmit data dan receive data
+- Wireless
+
+Topologi Jaringan 
+- cara menghubungkan computer dan perangkat dalam jaringan agar efisien
+1. Topologi Bus, semua perangkat terhubung pada satu kabel Utama. Bus sebagai jalur komunikasi tunggal yang digunakan. 
+2. Topologi Star, semua perangkat terhubung pada satu titik pusat (switch/hub). Sering digunakan dalam jaringan kabel LAN.
+3. Topologi Ring, struktur jaringan komputer yang berbentuk cincin, dimana setiap perangkat terhubung langsung. biasanya menggunakan kabel UTP
+4. Topologi Mesh, menghubungkan setiap perangkat secara langsung, jumlah saluran = jumlah sentral - 1. cocok untuk jaringan yg butuh komunikasi darurat
+5. Topologi Tree, gabungan topologi bus dan topologi star, menyerupai pohon dalam satu jaringan bercabang ke beberapa sub-jaringan menggunakan switch. 
+
+
