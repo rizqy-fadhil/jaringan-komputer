@@ -1,0 +1,24 @@
+1. Apa yang dimaksud dengan jaringan computer? 
+- jaringan computer adalah computer dan perangkat lain yang terhubung untuk berbagi data, sumber daya, dan layanan. 
+
+2. Sebutkan tiga jenis jaringan berdasarkan jangkauan?
+- LAN (Local Area Network)
+- MAN (Metropolitan Area Network)
+- WAN (Wide Area Network)
+
+3. Sebutkan dua media transmisi jaringan yang menggunakan kabel
+- Wired (kabel)
+- Wireless (Nirkabel)
+
+4. Jelaskan perbedaan antara LAN dan WAN
+- LAN lingkupnya kecil hanya sebatas rumah atau kantor
+- WAN lingkupnya besar seperti antar negara atau benua
+
+5. Apa fungsi dari switch dalam jaringan?
+- di modul ngga ada, tapi sepemahaman ku switch/router ini menjadi perantara antara computer dengan modem internet
+
+6. Sebutkan contoh penggunaan jaringan MAN!
+- jaringan skala global seperti google atau nvdia
+
+7. Sebutkan contoh dari topologi hybrid
+- kurang tau tapi topologi hybrid ini gabungan dari topologi jaringan dan topologi fisik. 
