@@ -1,0 +1,114 @@
+Protokol Komunikasi dalam Jaringan Komputer
+
+Protokol komunikasi adalah sekumpulan aturan dan prosedur yang mengatur bagaimana data dikirim, diterima dan di proses dalam suatu jaringan komputer.
+contoh protokol komunikasi dalam jaringan : 
+- IP (Internet Protocol) - Mengatur pengalamatan dan pengiriman paket data
+- TCP (Transmission Control Protocol) - Menyediakan koneksi yang andal untuk pertukaran data
+- HTTP/HTTPS (Hypertext Transfer Protocol) - Mengatur komunikasi data di web
+
+Peran Protokol
+1. Menstandarkan Komunikasi
+2. Mengatur Format Data
+3. Memastikan Keamanan dan Integritas Data
+4. Mengontrol Akses dan Manajemen Jaringan
+5. Mengoptimalkan Kinerja dan Efisiensi
+
+Fungsi Protokol Komunikasi
+1. Mengatur Format Data
+2. Kontrol Kesalahan
+3. Manajemen Koneksi
+4. Keamanan Data
+
+Elemen Protokol Komunikasi
+- Syntax : Format dan Struktur Data
+- Semantik : Arti dan Interpretasi Data
+- Timing : Pengaturan Waktu Dalam Komunikasi
+
+Sintaks : menentukan bagaimana data dikodekan dan disusun dalam komunikasi jaringan. menentukan bagaimana data dibagi menjadi bagian-bagian, seperti header, playload, trailer
+contoh : - protokol TCP/IP paket 24 bit, 8 bit alamat sumber, 8 bit alamat tujuan 8 bit bit stream pesan
+         - protokol http, sintaksnya terdiri dari request line, header dan body
+
+Semantik : menentukan makna dari setiap bagian yang dikirimkan dan bagaimana perangkat harus merespons. 
+contoh : - TCP memastikan komunikasi dengan ACK, yang memberitau data diterima
+         - HTTP 404 berarti "halaman tidak ditemukan", menunjukan bahwa permintaan klien tidak dapat dipenuhi.
+
+Timing : mengatur sinkronisasi dan kecepatan komunikasi antarperangkat
+contoh : - TCP menggunakan mekanisme windowing untuk mengatur jumlah data yang dikirim
+
+Model OSI dan TCP/IP
+Konsep Layar, dalam mendesain suatu model bisa mendefinisikan aspek-aspek penting sistem, agar model yang dibuat dapat berinteraksi, maka disediakan interface yang mendasari munculnya konsep arsitektur berbasis layar (layering)
+layering bermanfaat untuk memecah kompleksitas pada modul. 
+
+Model OSI (OpenSystem Interconnection)
+1. Physical, mengatur transmisi data dalam bentuk sinyal fisik
+2. Data Link, mengelola komunikasi antar perangkat
+3. Network, menentukan jalur terbaik
+4. Transport, menjamin keandalan komunikasi data
+5. Session, mengelola sesi komunikasi
+6. Presentation, mengubah format data agar dipahami
+7. Application, menyediakan layanan langsung ke pengguna
+
+Model TCP/IP
+1. Network Interface
+2. Internet
+3. Transport
+4. Application
+
+Perbedaan OSI vs TCP/IP
+- OSI bersifat konseptual, TCP lebih praktis
+- OSI memiliki 7 lapisam TCP/IP hanya 4 lapisan
+- TCP/IP lebih umum digunakan
+
+Contoh Ilustrasi Implementasi Protokol 3 Layar
+Aplication Layer
+Transport Layer
+Network Access Layer
+
+Karakteristrik Protokol Jaringan 
+1. Monolitik dan Terstruktur
+monolitik, protokol bersifat terpadu tanpa fungsi yang jelas antar komponen. 
+terstruktur, dibagi dalam beberapa lapisan, dimana setiap lapisan memiliki fungsi spesifik
+2. Simetrik dan Asimetrik
+simetrik, kedua pihak berkomunikasi menggunakan protokol yang sama. contoh peer-to-peer file sharing
+asimetrik, peran pengirim dan penerima berbeda. contoh HTTP (klien kirim, server respon)
+3. Langsung dan Tidak Langsung
+langsung, end to end tanpa perantara
+tidak, melibatkan perantara seperti router atau proxy
+4. Standar dan Tidak Standar
+standar, dikembangkan oleh organisasi resmi seperti IETF dan IEEE
+tidak, oleh perusahaan tertentu
+
+Fungsi Utama Protokol
+1. Segmentation & Reassembly 
+- segmentation proses membagi-bagi blok data, alasan : ukuran terbatas, kendali pada ukuran kecil lebih efisien dan buffer pun hemat
+- reassembly adalah proses penyusunan kembali paket berukuran kecil menjadi blok data
+2. Encapsulation dan Decapsulation
+- enkapsulasi adalah proses penambahan informasi kontrol pada data
+- dekapsulasi adalah proses pembuangan informasi kontrol dari data
+3. Connection Control
+- Connectionless adalah hanya terdapat 1 tahapan yaitu proses pengiriman data. 
+- Connection Oriented adalah membangun 3 tahap : fase membangun hubungan, melakukan transmisi data, mengakhiri hubungan
+4. Flow Control
+- Kendali aliran dilakukan dengan cara membatasi jumlah data yg dikirim dengan mekanisme STOP & WAIT
+5. Multiplexing dan Demultiplexing
+- Multiplexing merupakan teknik untuk menggabungkan beberapa informasi agar dapat dikirim 1 saluran
+- Demultiplexing merupakan teknik memisahkan kembali stream jadi beberapa informasi
+6. Error Control
+- Kendali Kesalahan berfungsi untuk melakukan deteksi kesalahan dan perbaikan pada data.
+7. Addressing
+- Alamat pisik : yang melekat pada suatu perangkat. ex : MAC Address
+- Alamat logic ex : IP Address
+
+Jenis-Jenis Protokol Komunikasi
+1. Protokol Jaringan
+- IP dan ICMP
+2. Protokol Transport
+- TCP dan UDP
+3. Protokol Aplikasi
+- HTTP/HTTPS , FTP  dan SMTP/POP/3IMAP
+4. Protokol Keamanan
+- SSL/TLS dan IPSec
+
+
+
+
